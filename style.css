@@ -14,22 +14,22 @@
   }
   
   .mapboxgl-popup-content-wrapper {
-    padding: 1%;
+    padding: 0%;
   }
   
   .mapboxgl-popup-anchor-top > .mapboxgl-popup-content-wrapper {
-    margin-top: 10px;
+    margin-top: 0px;
   }
   
   .mapboxgl-popup-anchor-bottom > .mapboxgl-popup-content-wrapper {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   
   .mapboxgl-popup-anchor-left > .mapboxgl-popup-content-wrapper {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   
   .mapboxgl-popup-anchor-right > .mapboxgl-popup-content-wrapper {
-    margin-right: 10px;
+    margin-right: 0px;
   }
   

@@ -18,10 +18,15 @@ const userAction = async () => {
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
+  style: 'mapbox://styles/mapbox/dark-v11',
   center: [8.0836962, 49.9433667],
   zoom: 14
 });
+
+var bounds = [[1.5254632070959973, 48.85109029479264], [ 8.781604026118787, 50.30348197290076]];
+
+// set the bounds of the map
+map.fitBounds(bounds);
 
 var geojson = {
   'type': 'FeatureCollection',
@@ -29,7 +34,7 @@ var geojson = {
     'type': 'Feature',
     'properties': {
       'name': 'Route',
-      'color': '#ff0000'
+      'color': '#ffffff'
     },
     'geometry': {
       'type': 'LineString',
