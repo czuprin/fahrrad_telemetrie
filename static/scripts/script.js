@@ -20,8 +20,9 @@ const userAction = async () => {
 map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/dark-v11',
-  center: [8.0836962, 49.9433667],
-  zoom: 14
+  //style: 'mapbox://styles/mapbox/streets-v12'
+  center: [7.0836962, 49.9433667],
+  zoom: 8
 });
 
 
@@ -64,6 +65,24 @@ map.on('load', function() {
 
 });
 
+const coordinates2 = geojson.features[0].geometry.coordinates;
+ 
+// Create a 'LngLatBounds' with both corners at the first coordinate.
+const bounds2 = new mapboxgl.LngLatBounds(
+coordinates2[0],
+coordinates2[0]
+);
+ 
+// Extend the 'LngLatBounds' to include every coordinate in the bounds result.
+// Extend the 'LngLatBounds' to include every coordinate in the bounds result.
+for (const coord of coordinates2) {
+  bounds2.extend(coord);
+  }
+ 
+map.fitBounds(bounds2, {
+padding: 20, duration: 0
+});
+
 }
 
 
@@ -84,7 +103,7 @@ map.fitBounds(bounds, {
 
 userAction();
 
-setTimeout( function() {  zoom(); }, 2000);
+setTimeout( function() {  zoom(); }, 4000);
  
 
 
