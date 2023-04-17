@@ -3,7 +3,7 @@ var coordinates = []
 
 
 const userAction = async () => {
-    const response = await fetch('http://127.0.0.1:4323/data');
+    const response = await fetch('http://127.0.0.1:5000/data');
     const myJson = await response.json(); //extract JSON from the http response
     console.log(myJson);
     coordinates = myJson['data'];

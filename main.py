@@ -1,7 +1,7 @@
 import influxdb_client
 from influxdb_client.client.write_api import SYNCHRONOUS
 import json
-from flask import Flask
+import flask
 
 import logging
 
@@ -28,7 +28,7 @@ query_api = influx_client.query_api()
 
 p = """
 from(bucket: "RennRad_Neu_2")
-  |> range(start: -60d)
+  |> range(start: -10d)
   |> filter(fn: (r) => r["_measurement"] == "GPS")
   |> filter(fn: (r) => r["_field"] == "lat" or r["_field"] == "lon")
   |> pivot(rowKey:["_time"], columnKey: ["_field"], valueColumn: "_value")
@@ -61,7 +61,7 @@ for row in csv_result:
 print(csv_result)
 
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 
 @app.route('/data')
@@ -70,8 +70,17 @@ def hello():
     val = {'data' : ridden_track}
     return val
 
+@app.route('/')
+def index():
+    return flask.render_template('index.html')
+
+
+
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=4323)
+    app.run()
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0")
        
 
 
