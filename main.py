@@ -28,7 +28,7 @@ query_api = influx_client.query_api()
 
 p = """
 from(bucket: "RennRad_Neu_2")
-  |> range(start: -10d)
+  |> range(start: -100m)
   |> filter(fn: (r) => r["_measurement"] == "GPS")
   |> filter(fn: (r) => r["_field"] == "lat" or r["_field"] == "lon")
   |> pivot(rowKey:["_time"], columnKey: ["_field"], valueColumn: "_value")

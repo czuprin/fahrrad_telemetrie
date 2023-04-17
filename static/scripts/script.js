@@ -91,19 +91,20 @@ padding: 20, duration: 0
 function zoom(){
   
 
-  var bounds = [[1.5254632070959973, 48.85109029479264], [ 8.781604026118787, 50.30348197290076]];
+  var bounds = [[6.5254632070959973, 48.85109029479264], [ 8.781604026118787, 50.30348197290076]];
 
 // set the bounds of the map
 map.fitBounds(bounds, {
   
-  duration: 7000
+  //duration: 7000
+  duration: 3000
 });
 }
 
 
 userAction();
 
-setTimeout( function() {  zoom(); }, 4000);
+setTimeout( function() {  zoom(); }, 3000);
  
 
 
