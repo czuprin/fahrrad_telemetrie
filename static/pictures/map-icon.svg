@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 100 100"
+   version="1.1"
+   sodipodi:docname="map-icon.svg"
+   width="100"
+   height="100"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.920573"
+     inkscape:cx="52.588473"
+     inkscape:cy="61.439999"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1">
+    <sodipodi:guide
+       position="110.9044,-29.128133"
+       orientation="0,-1"
+       id="guide794"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill-rule:evenodd;}</style>
+  </defs>
+  <title
+     id="title6">map</title>
+  <path
+     class="cls-1"
+     d="M 53.422187,59.522063 A 1.3183755,1.3183721 0 0 1 51.908494,59.570892 53.101241,53.101103 0 0 1 38.773568,47.852029 41.740423,41.740314 0 0 1 29.935567,28.78446 C 28.885751,22.282118 29.886735,16.032057 33.141988,10.945744 A 21.972927,21.97287 0 0 1 38.02486,5.5257699 23.787727,23.787665 0 0 1 52.966449,0 a 21.159115,21.15906 0 0 1 14.20916,5.7943271 21.159115,21.15906 0 0 1 3.792365,4.6224409 c 3.474978,5.696669 4.223686,13.020961 2.693718,20.442908 A 44.995671,44.995554 0 0 1 53.422187,59.522063 Z M 37.959756,60.124282 V 82.764477 L 62.49619,93.344005 V 64.185194 a 53.036135,53.035997 0 0 0 5.249088,-4.58175 V 93.116139 L 88.090581,82.870271 V 37.296912 l -7.820735,3.011097 a 50.138964,50.138834 0 0 0 1.936873,-6.355856 l 7.568452,-2.921577 a 2.620475,2.6204682 0 0 1 3.344768,1.521824 2.5879225,2.5879158 0 0 1 0.179039,0.94402 v 51.025886 a 2.6286131,2.6286063 0 0 1 -1.627624,2.441431 L 66.280417,99.716138 a 2.6286131,2.6286063 0 0 1 -2.376331,0 L 35.420661,87.370642 10.908641,99.716138 A 2.620475,2.6204682 0 0 1 7.3848343,98.560529 2.6693036,2.6692967 0 0 1 7.1000001,97.380504 V 43.327245 A 2.6286131,2.6286063 0 0 1 8.9880442,40.804433 L 22.318287,35.661154 a 47.713804,47.71368 0 0 0 1.757833,4.939826 l -11.718894,4.516645 v 48.01479 L 32.702529,82.886548 V 54.598512 a 62.077588,62.077427 0 0 0 5.257227,5.52577 z M 51.981738,11.56424 A 11.165502,11.165473 0 1 1 40.816236,22.729714 11.165502,11.165473 0 0 1 51.981738,11.56424 Z"
+     id="path8"
+     style="stroke-width:0.999994" />
+  <metadata
+     id="metadata850">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>map</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

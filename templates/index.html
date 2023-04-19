@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="top">
 <head>
   <meta charset='utf-8' />
   <title>Visualisierung der gefahrenen Strecke</title>
@@ -18,7 +18,7 @@
     #map {
       position: absolute;
       top: 0;
-      bottom: 15px;
+      bottom: 0;
       left:0;
       right:0;
       background-color: black;
@@ -33,6 +33,7 @@
 
 </head>
 <body>
+  <div id='test'><div>
   <div id='map'></div>
   <div class="arrow bounce">
 
@@ -42,15 +43,22 @@
     <script type="text/javascript" src="../static/scripts/script.js"></script> 
  
  
-  
+    <a class="sticky_map" href="#top"><img class="sticky_picture" src="../static/pictures/map-icon.svg"  width="50px"></a>
   <!-- <a class = 'test'href="#down" >Click Here to Smoothly Scroll Down</a> -->
-  <div class="sticky"><img src="../static/pictures/arrow_up_black.svg" width="50px" style="padding:7px;"></div>
-	<div class="content">
+  <a class="sticky" href="#down"><img class="sticky_picture" src="../static/pictures/arrow_up_black.ico"  width="50px"></a>
+  <div class="processbar_div">
+    <div class="processbar">
+    
+    </div>
+  </div>
+	<div class="content" id="down">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices velit sed purus eleifend, a gravida nunc faucibus. Maecenas eget est semper, ullamcorper purus id, faucibus quam. Proin euismod tristique mauris. Vivamus bibendum rhoncus quam, vel efficitur ipsum malesuada eget. Aliquam in lectus quis nisl tristique pretium. Sed vel velit eu magna lobortis malesuada a non ante. Donec et feugiat quam. Integer fringilla magna nec nisi euismod interdum. Donec at dui varius, ultricies ipsum nec, luctus justo. Praesent consectetur, dui ac vulputate hendrerit, velit quam laoreet lorem, ut hendrerit justo ipsum in odio.</p>
 		<p>Nullam eget turpis ut mi sagittis porttitor. Nullam eget felis non eros ullamcorper vehicula. In fringilla posuere nisi, eget pulvinar nunc elementum eget. Morbi sit amet mi arcu. Maecenas venenatis suscipit ipsum, eu laoreet elit accumsan eu. Integer varius tellus felis, id dignissim eros suscipit eu. Pellentesque consequat, odio ut dignissim maximus, justo purus pharetra elit, sit amet pulvinar justo ipsum in tortor. Duis at efficitur dolor, vel iaculis ipsum. Aenean mollis pharetra consequat. Fusce eu libero in sapien hendrerit tempus. Fusce pellentesque tincidunt enim, vitae pellentesque ipsum aliquet sed. Aliquam ultrices, purus et finibus fringilla, augue nulla molestie sapien, quis tincidunt orci risus ac nunc.</p>
 	</div>
+
+  
  
-  <div id="down">
+  <div>
     <h1>You are down!</h1>
   </div>
 

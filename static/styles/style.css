@@ -35,10 +35,10 @@
   }
   
   .sticky {
-    position: fixed;
-    bottom: 20px;
+    position: absolute;
+    bottom: 30px;
     left: 20px;
-    background-color: grey;
+    background-color: rgba(128,128,128,0.5);
     
     border-radius: 10px;
    
@@ -47,6 +47,39 @@
 border-color: green;
 border-width: 4px;
   }
+.sticky_map{
+  position: fixed;
+  
+    top: 20px;
+    left: 20px;
+    background-color: rgba(128,128,128,0.95);
+    
+    border-radius: 10px;
+   
+    z-index:0;
+
+border-color: green;
+border-width: 4px;
+
+}
+
+
+
+
+  .sticky_picture{
+    transition-duration: 250ms;
+
+    padding:7px;
+    
+  }
+  .sticky_picture:hover {
+    
+    
+    opacity: 0.6;
+    
+  }
+
+
 
   .content {
     height: 2000px;
@@ -54,6 +87,7 @@ border-width: 4px;
     
     font-size: 16px;
     line-height: 1.5;
+    margin-top: 85vh;
   }
 
   .test{
@@ -62,6 +96,39 @@ border-width: 4px;
     z-index:3;
   }
 
+  .processbar{
+    
+    transition-duration: 1s;
+    z-index:3;
+    width: 40%;
+    height: 100%;
+    background-color: orange;
+    border-radius: 10px;
+  }
+  .processbar:hover{
+    
+    width: 67%;
+  }
+
+  .processbar_div{
+    
+    transition-duration: 1s;
+    z-index:2;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color: rgba(128,128,128,0.5);
+    
+    height: 30px;
+    border-radius: 10px;
+    width: 50vw;
+    max-width: 400px;
+    
+  }
+
+  .processbar_div:hover{
+    height: 64px;
+  }
 
   @import "compass/css3";
 
